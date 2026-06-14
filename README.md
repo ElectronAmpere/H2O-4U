@@ -39,6 +39,7 @@ The app will allow personalized goals instead of one-size-fits-all recommendatio
 - **Swift Concurrency** – Modern async/await patterns
 
 ## Current Project Structure
+```text
 H2O-4U/
 ├── Shared/
 │   └── Models/
@@ -47,6 +48,7 @@ H2O-4U/
 ├── ContentView.swift
 ├── Assets.xcassets
 └── (Watch target + other platform files)
+```
 
 ## Getting Started
 

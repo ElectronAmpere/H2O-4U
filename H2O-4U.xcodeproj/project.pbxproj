@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9465CF132FDEC15100EA419B /* H20-4U Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9465CEF32FDEC15000EA419B /* H20-4U Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9465CF2D2FDEC84B00EA419B /* WaterIntakeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465CF2C2FDEC84B00EA419B /* WaterIntakeLog.swift */; };
+		9465CF2E2FDEC84B00EA419B /* WaterIntakeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465CF2C2FDEC84B00EA419B /* WaterIntakeLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,7 @@
 		9465CEF32FDEC15000EA419B /* H20-4U Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H20-4U Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9465CEFF2FDEC15100EA419B /* H20-4U Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H20-4U Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9465CF092FDEC15100EA419B /* H20-4U Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H20-4U Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9465CF2C2FDEC84B00EA419B /* WaterIntakeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeLog.swift; sourceTree = "<group>"; };
 		946650302FDEBF0900843CA1 /* H2O-4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H2O-4U.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466503D2FDEBF0A00843CA1 /* H2O-4UTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H2O-4UTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		946650472FDEBF0A00843CA1 /* H2O-4UUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H2O-4UUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,9 +153,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9465CF262FDEC66B00EA419B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9465CF272FDEC67A00EA419B /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9465CF272FDEC67A00EA419B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9465CF2C2FDEC84B00EA419B /* WaterIntakeLog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		946650272FDEBF0900843CA1 = {
 			isa = PBXGroup;
 			children = (
+				9465CF262FDEC66B00EA419B /* Shared */,
 				946650322FDEBF0900843CA1 /* H2O-4U */,
 				946650402FDEBF0A00843CA1 /* H2O-4UTests */,
 				9466504A2FDEBF0A00843CA1 /* H2O-4UUITests */,
@@ -425,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9465CF2E2FDEC84B00EA419B /* WaterIntakeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9465CF2D2FDEC84B00EA419B /* WaterIntakeLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,6 +804,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -826,6 +849,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

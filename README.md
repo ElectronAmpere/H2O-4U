@@ -48,5 +48,9 @@ See GitHub Projects / Milestones for live tracking.
 3. Select the iOS target and run on simulator
 4. Add Watch target if not already present (see instructions in repo)
 
+## References
+1. [Daily Water Intake Among U.S. Men and Women, 2009–2012](https://www.cdc.gov/nchs/products/databriefs/db242.htm)
+2. [Water: How much should you drink every day?](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256)
+
 ## License
 MIT

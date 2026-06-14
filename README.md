@@ -1,56 +1,87 @@
 # H2O-4U
 
-A SwiftUI-based hydration logger for iOS, macOS, and watchOS that minimizes friction while staying scientifically grounded.
+A beautiful, low-friction hydration tracking app for the entire Apple ecosystem (iOS, macOS, and watchOS) built with SwiftUI and HealthKit.
 
 ## Vision
 Track individual daily water consumption seamlessly.
 
 ## Mission
-Facilitate the tracking of daily water intake with minimal effort.
+Facilitate the tracking of daily water intake with minimal effort using the unified Apple ecosystem.
 
 ## Objective
-Create a native Apple ecosystem app (macOS + iOS + watchOS) with hourly/daily/monthly/yearly logging and deep HealthKit + iCloud sync.
+Build a native multiplatform app that supports hourly, daily, monthly, and yearly logging with deep HealthKit integration and iCloud sync.
 
-## Strategy & Key Principles
-- **HealthKit first**: The Apple Health store is the single source of truth. We write `dietaryWater` samples and read history for charts/widgets.
-- **SwiftUI everywhere**: One declarative UI codebase that adapts to each platform (Watch complications, iOS widgets, macOS sidebar, etc.).
-- **Scientifically accurate**: Defaults and insights informed by IOM/EFSA/Mayo guidelines rather than arbitrary “8 glasses” rules.
-- **Low friction**: Quick-add buttons, complications, widgets, and reminders so logging becomes habitual.
+## Strategy
+Leverage Apple’s HealthKit as the single source of truth and SwiftUI for a consistent experience across iPhone, Apple Watch, and Mac while minimizing logging friction through widgets, complications, and quick-add options.
+
+## Key Features (Planned)
+- Quick-add water intake (250ml, 500ml, custom amounts)
+- HealthKit integration (read/write `dietaryWater`)
+- Apple Watch complications and interactive widgets
+- Daily, weekly, and monthly insights
+- Personalized goals based on scientific guidelines
+- iCloud sync across all devices
 
 ## Scientific Foundation
-Hydration needs are individual. Classic evidence-based references:
+Hydration needs are individual. This app is built on evidence-based guidelines rather than arbitrary rules:
 
-- Institute of Medicine (2004): Adequate Intake ≈ 3.7 L/day (men) / 2.7 L/day (women) total water from beverages + food.
-- Mayo Clinic: ~2.7–3.7 L total fluid/day depending on body size, activity, climate.
-- Key insight: Even 1–2% body mass dehydration impairs cognition and physical performance. Consistent easy logging improves adherence.
+- **Institute of Medicine (2004)**: Adequate Intake ≈ 3.7 L/day (men) and 2.7 L/day (women) total water from beverages and food.
+- **Mayo Clinic**: Approximately 2.7–3.7 L of total fluid per day depending on body size, activity level, and climate.
+- Even mild dehydration (1–2% body mass loss) can impair cognitive and physical performance.
 
-The app will allow personalized goals (manual or derived from HealthKit body mass + activity later) instead of one-size-fits-all numbers.
+The app will allow personalized goals instead of one-size-fits-all recommendations.
 
 ## Tech Stack
-- **SwiftUI** (declarative UI)
-- **HealthKit** (`HKQuantityType.dietaryWater`)
-- **SwiftData** (future local cache/settings)
-- **WidgetKit** + Watch complications
-- **Swift Concurrency** (async/await for HealthKit)
-- Git + GitHub for version control
+- **SwiftUI** – Declarative UI across all platforms
+- **HealthKit** – `dietaryWater` quantity samples + authorization
+- **SwiftData** – Local persistence and settings (planned)
+- **WidgetKit** – Home screen widgets and Watch complications
+- **Swift Concurrency** – Modern async/await patterns
 
-## Current Status & Roadmap
-See GitHub Projects / Milestones for live tracking.
+## Current Project Structure
+H2O-4U/
+├── Shared/
+│   └── Models/
+│       └── WaterIntakeLog.swift     ← Core data model
+├── H2O-4UApp.swift
+├── ContentView.swift
+├── Assets.xcassets
+└── (Watch target + other platform files)
 
-**v0.1 (MVP)**: Basic logging UI + data model on iOS  
-**v0.2**: HealthKit authorization + write `dietaryWater` samples  
-**v0.3**: Read daily total + history list  
-**Later**: Watch app + complications, interactive widgets, goal personalization, macOS support, beautiful charts
+## Getting Started
 
-## Getting Started (for contributors / future you)
-1. Clone this repo
-2. Open `H2O-4U.xcodeproj` in Xcode
-3. Select the iOS target and run on simulator
-4. Add Watch target if not already present (see instructions in repo)
+### Prerequisites
+- Xcode 26.5 or later
+- Apple Developer account (free tier is sufficient for development)
+- iPhone + Apple Watch (recommended for full testing)
 
-## References
-1. [Daily Water Intake Among U.S. Men and Women, 2009–2012](https://www.cdc.gov/nchs/products/databriefs/db242.htm)
-2. [Water: How much should you drink every day?](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256)
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ElectronAmpere/H2O-4U.git
+   cd H2O-4U
+   ```
+2. Open H2O-4U.xcodeproj in Xcode.
+3. Select your development team in the project settings.
+4. Run the app on iOS Simulator or your devices.
+
+## Roadmap
+| Version | Status       | Focus                              |
+|---------|--------------|------------------------------------|
+| v0.1    | In Progress  | Data model + project foundation    |
+| v0.2    | Planned      | HealthKit logging                  |
+| v0.3    | Planned      | History view + daily totals        |
+| v0.4    | Planned      | Watch app + complications          |
+| v0.5    | Planned      | Widgets + goal personalization     |
+
+## Metrics (Future)
+- Daily Active Users
+- Average daily logs per user
+- HealthKit sync latency
+- App Store ratings & reviews
+
+## Contributing
+This is currently a personal learning project. Suggestions and feedback are welcome via Issues or Discussions.
 
 ## License
-MIT
+MIT License

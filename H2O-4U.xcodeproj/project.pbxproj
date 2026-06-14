@@ -1,0 +1,1031 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9465CF132FDEC15100EA419B /* H20-4U Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9465CEF32FDEC15000EA419B /* H20-4U Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9465CF002FDEC15100EA419B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946650282FDEBF0900843CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9465CEF22FDEC15000EA419B;
+			remoteInfo = "H20-4U Watch App";
+		};
+		9465CF0A2FDEC15100EA419B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946650282FDEBF0900843CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9465CEF22FDEC15000EA419B;
+			remoteInfo = "H20-4U Watch App";
+		};
+		9465CF112FDEC15100EA419B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946650282FDEBF0900843CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9465CEF22FDEC15000EA419B;
+			remoteInfo = "H20-4U Watch App";
+		};
+		9466503E2FDEBF0A00843CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946650282FDEBF0900843CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9466502F2FDEBF0900843CA1;
+			remoteInfo = "H2O-4U";
+		};
+		946650482FDEBF0A00843CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 946650282FDEBF0900843CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9466502F2FDEBF0900843CA1;
+			remoteInfo = "H2O-4U";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9465CF142FDEC15100EA419B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9465CF132FDEC15100EA419B /* H20-4U Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9465CEF32FDEC15000EA419B /* H20-4U Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H20-4U Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9465CEFF2FDEC15100EA419B /* H20-4U Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H20-4U Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9465CF092FDEC15100EA419B /* H20-4U Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H20-4U Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946650302FDEBF0900843CA1 /* H2O-4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H2O-4U.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9466503D2FDEBF0A00843CA1 /* H2O-4UTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H2O-4UTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946650472FDEBF0A00843CA1 /* H2O-4UUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H2O-4UUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9465CEF42FDEC15000EA419B /* H20-4U Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "H20-4U Watch App";
+			sourceTree = "<group>";
+		};
+		9465CF022FDEC15100EA419B /* H20-4U Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "H20-4U Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9465CF0C2FDEC15100EA419B /* H20-4U Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "H20-4U Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		946650322FDEBF0900843CA1 /* H2O-4U */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "H2O-4U";
+			sourceTree = "<group>";
+		};
+		946650402FDEBF0A00843CA1 /* H2O-4UTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "H2O-4UTests";
+			sourceTree = "<group>";
+		};
+		9466504A2FDEBF0A00843CA1 /* H2O-4UUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "H2O-4UUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9465CEF02FDEC15000EA419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9465CEFC2FDEC15100EA419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9465CF062FDEC15100EA419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466502D2FDEBF0900843CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466503A2FDEBF0A00843CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946650442FDEBF0A00843CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		946650272FDEBF0900843CA1 = {
+			isa = PBXGroup;
+			children = (
+				946650322FDEBF0900843CA1 /* H2O-4U */,
+				946650402FDEBF0A00843CA1 /* H2O-4UTests */,
+				9466504A2FDEBF0A00843CA1 /* H2O-4UUITests */,
+				9465CEF42FDEC15000EA419B /* H20-4U Watch App */,
+				9465CF022FDEC15100EA419B /* H20-4U Watch AppTests */,
+				9465CF0C2FDEC15100EA419B /* H20-4U Watch AppUITests */,
+				946650312FDEBF0900843CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		946650312FDEBF0900843CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946650302FDEBF0900843CA1 /* H2O-4U.app */,
+				9466503D2FDEBF0A00843CA1 /* H2O-4UTests.xctest */,
+				946650472FDEBF0A00843CA1 /* H2O-4UUITests.xctest */,
+				9465CEF32FDEC15000EA419B /* H20-4U Watch App.app */,
+				9465CEFF2FDEC15100EA419B /* H20-4U Watch AppTests.xctest */,
+				9465CF092FDEC15100EA419B /* H20-4U Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9465CEF22FDEC15000EA419B /* H20-4U Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9465CF1B2FDEC15100EA419B /* Build configuration list for PBXNativeTarget "H20-4U Watch App" */;
+			buildPhases = (
+				9465CEEF2FDEC15000EA419B /* Sources */,
+				9465CEF02FDEC15000EA419B /* Frameworks */,
+				9465CEF12FDEC15000EA419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9465CEF42FDEC15000EA419B /* H20-4U Watch App */,
+			);
+			name = "H20-4U Watch App";
+			packageProductDependencies = (
+			);
+			productName = "H20-4U Watch App";
+			productReference = 9465CEF32FDEC15000EA419B /* H20-4U Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9465CEFE2FDEC15100EA419B /* H20-4U Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9465CF1C2FDEC15100EA419B /* Build configuration list for PBXNativeTarget "H20-4U Watch AppTests" */;
+			buildPhases = (
+				9465CEFB2FDEC15100EA419B /* Sources */,
+				9465CEFC2FDEC15100EA419B /* Frameworks */,
+				9465CEFD2FDEC15100EA419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9465CF012FDEC15100EA419B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9465CF022FDEC15100EA419B /* H20-4U Watch AppTests */,
+			);
+			name = "H20-4U Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "H20-4U Watch AppTests";
+			productReference = 9465CEFF2FDEC15100EA419B /* H20-4U Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9465CF082FDEC15100EA419B /* H20-4U Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9465CF1D2FDEC15100EA419B /* Build configuration list for PBXNativeTarget "H20-4U Watch AppUITests" */;
+			buildPhases = (
+				9465CF052FDEC15100EA419B /* Sources */,
+				9465CF062FDEC15100EA419B /* Frameworks */,
+				9465CF072FDEC15100EA419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9465CF0B2FDEC15100EA419B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9465CF0C2FDEC15100EA419B /* H20-4U Watch AppUITests */,
+			);
+			name = "H20-4U Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "H20-4U Watch AppUITests";
+			productReference = 9465CF092FDEC15100EA419B /* H20-4U Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9466502F2FDEBF0900843CA1 /* H2O-4U */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946650512FDEBF0A00843CA1 /* Build configuration list for PBXNativeTarget "H2O-4U" */;
+			buildPhases = (
+				9466502C2FDEBF0900843CA1 /* Sources */,
+				9466502D2FDEBF0900843CA1 /* Frameworks */,
+				9466502E2FDEBF0900843CA1 /* Resources */,
+				9465CF142FDEC15100EA419B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9465CF122FDEC15100EA419B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				946650322FDEBF0900843CA1 /* H2O-4U */,
+			);
+			name = "H2O-4U";
+			packageProductDependencies = (
+			);
+			productName = "H2O-4U";
+			productReference = 946650302FDEBF0900843CA1 /* H2O-4U.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9466503C2FDEBF0A00843CA1 /* H2O-4UTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946650542FDEBF0A00843CA1 /* Build configuration list for PBXNativeTarget "H2O-4UTests" */;
+			buildPhases = (
+				946650392FDEBF0A00843CA1 /* Sources */,
+				9466503A2FDEBF0A00843CA1 /* Frameworks */,
+				9466503B2FDEBF0A00843CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9466503F2FDEBF0A00843CA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				946650402FDEBF0A00843CA1 /* H2O-4UTests */,
+			);
+			name = "H2O-4UTests";
+			packageProductDependencies = (
+			);
+			productName = "H2O-4UTests";
+			productReference = 9466503D2FDEBF0A00843CA1 /* H2O-4UTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		946650462FDEBF0A00843CA1 /* H2O-4UUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946650572FDEBF0A00843CA1 /* Build configuration list for PBXNativeTarget "H2O-4UUITests" */;
+			buildPhases = (
+				946650432FDEBF0A00843CA1 /* Sources */,
+				946650442FDEBF0A00843CA1 /* Frameworks */,
+				946650452FDEBF0A00843CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946650492FDEBF0A00843CA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9466504A2FDEBF0A00843CA1 /* H2O-4UUITests */,
+			);
+			name = "H2O-4UUITests";
+			packageProductDependencies = (
+			);
+			productName = "H2O-4UUITests";
+			productReference = 946650472FDEBF0A00843CA1 /* H2O-4UUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946650282FDEBF0900843CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					9465CEF22FDEC15000EA419B = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					9465CEFE2FDEC15100EA419B = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 9465CEF22FDEC15000EA419B;
+					};
+					9465CF082FDEC15100EA419B = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 9465CEF22FDEC15000EA419B;
+					};
+					9466502F2FDEBF0900843CA1 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					9466503C2FDEBF0A00843CA1 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 9466502F2FDEBF0900843CA1;
+					};
+					946650462FDEBF0A00843CA1 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 9466502F2FDEBF0900843CA1;
+					};
+				};
+			};
+			buildConfigurationList = 9466502B2FDEBF0900843CA1 /* Build configuration list for PBXProject "H2O-4U" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946650272FDEBF0900843CA1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 946650312FDEBF0900843CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9466502F2FDEBF0900843CA1 /* H2O-4U */,
+				9466503C2FDEBF0A00843CA1 /* H2O-4UTests */,
+				946650462FDEBF0A00843CA1 /* H2O-4UUITests */,
+				9465CEF22FDEC15000EA419B /* H20-4U Watch App */,
+				9465CEFE2FDEC15100EA419B /* H20-4U Watch AppTests */,
+				9465CF082FDEC15100EA419B /* H20-4U Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9465CEF12FDEC15000EA419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9465CEFD2FDEC15100EA419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9465CF072FDEC15100EA419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466502E2FDEBF0900843CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466503B2FDEBF0A00843CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946650452FDEBF0A00843CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9465CEEF2FDEC15000EA419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9465CEFB2FDEC15100EA419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9465CF052FDEC15100EA419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466502C2FDEBF0900843CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946650392FDEBF0A00843CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946650432FDEBF0A00843CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9465CF012FDEC15100EA419B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9465CEF22FDEC15000EA419B /* H20-4U Watch App */;
+			targetProxy = 9465CF002FDEC15100EA419B /* PBXContainerItemProxy */;
+		};
+		9465CF0B2FDEC15100EA419B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9465CEF22FDEC15000EA419B /* H20-4U Watch App */;
+			targetProxy = 9465CF0A2FDEC15100EA419B /* PBXContainerItemProxy */;
+		};
+		9465CF122FDEC15100EA419B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9465CEF22FDEC15000EA419B /* H20-4U Watch App */;
+			targetProxy = 9465CF112FDEC15100EA419B /* PBXContainerItemProxy */;
+		};
+		9466503F2FDEBF0A00843CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9466502F2FDEBF0900843CA1 /* H2O-4U */;
+			targetProxy = 9466503E2FDEBF0A00843CA1 /* PBXContainerItemProxy */;
+		};
+		946650492FDEBF0A00843CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9466502F2FDEBF0900843CA1 /* H2O-4U */;
+			targetProxy = 946650482FDEBF0A00843CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9465CF152FDEC15100EA419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "H20-4U";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.electronampere.H2O-4U";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4U.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		9465CF162FDEC15100EA419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "H20-4U";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.electronampere.H2O-4U";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4U.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		9465CF172FDEC15100EA419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H20-4U-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H20-4U Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/H20-4U Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		9465CF182FDEC15100EA419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H20-4U-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H20-4U Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/H20-4U Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		9465CF192FDEC15100EA419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H20-4U-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "H20-4U Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		9465CF1A2FDEC15100EA419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H20-4U-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "H20-4U Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		9466504F2FDEBF0A00843CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		946650502FDEBF0A00843CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		946650522FDEBF0A00843CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4U";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		946650532FDEBF0A00843CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4U";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		946650552FDEBF0A00843CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4UTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H2O-4U.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/H2O-4U";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		946650562FDEBF0A00843CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4UTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H2O-4U.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/H2O-4U";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		946650582FDEBF0A00843CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4UUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "H2O-4U";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		946650592FDEBF0A00843CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99V2KTXAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electronampere.H2O-4UUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "H2O-4U";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9465CF1B2FDEC15100EA419B /* Build configuration list for PBXNativeTarget "H20-4U Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9465CF152FDEC15100EA419B /* Debug */,
+				9465CF162FDEC15100EA419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9465CF1C2FDEC15100EA419B /* Build configuration list for PBXNativeTarget "H20-4U Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9465CF172FDEC15100EA419B /* Debug */,
+				9465CF182FDEC15100EA419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9465CF1D2FDEC15100EA419B /* Build configuration list for PBXNativeTarget "H20-4U Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9465CF192FDEC15100EA419B /* Debug */,
+				9465CF1A2FDEC15100EA419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9466502B2FDEBF0900843CA1 /* Build configuration list for PBXProject "H2O-4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9466504F2FDEBF0A00843CA1 /* Debug */,
+				946650502FDEBF0A00843CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946650512FDEBF0A00843CA1 /* Build configuration list for PBXNativeTarget "H2O-4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946650522FDEBF0A00843CA1 /* Debug */,
+				946650532FDEBF0A00843CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946650542FDEBF0A00843CA1 /* Build configuration list for PBXNativeTarget "H2O-4UTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946650552FDEBF0A00843CA1 /* Debug */,
+				946650562FDEBF0A00843CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946650572FDEBF0A00843CA1 /* Build configuration list for PBXNativeTarget "H2O-4UUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946650582FDEBF0A00843CA1 /* Debug */,
+				946650592FDEBF0A00843CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946650282FDEBF0900843CA1 /* Project object */;
+}
